@@ -2,7 +2,7 @@ package Array;
 
 public class tripletsum {
     public static void main(String[] args) {
-        System.out.println("Triplet Sum Problem");
+        System.out.println("Triplet Sum Problem"); // Problem Statement: Given an array of integers, find the count of triplets that sum up to a given value x.
         int arr[] = {7,2,1,5,4,3};
         int x = 12;
         int count = 0;
