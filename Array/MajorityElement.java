@@ -15,6 +15,6 @@ public class MajorityElement {
                 count--;
             }
         }
-        System.out.println(candidate);
+        System.out.println(candidate);// it will show the majority element
     }
 }
