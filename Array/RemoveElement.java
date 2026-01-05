@@ -1,5 +1,5 @@
 package Array;
-
+//write this code twice and got same solution
 public class RemoveElement {
     public static int removeElement(int[] nums, int val) {
         int k = 0; // Pointer for the position of the next non-val element
