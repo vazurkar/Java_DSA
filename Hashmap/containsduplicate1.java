@@ -6,12 +6,13 @@ public class containsduplicate1 {
         HashMap<Integer,Integer> map = new HashMap<>();
         for(int i=0;i<nums.length;i++){
             if(map.containsKey(nums[i])){
+
                 System.out.println("true");
                 return;
 
             }
             else{
-                map.put(nums[i],1);
+                map.put(nums[i],1); // adding values to map
 
             }
         }
